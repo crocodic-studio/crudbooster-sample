@@ -85,7 +85,7 @@ class DefaultData extends Seeder {
 })->describe('Install SSM');
 
 Artisan::command('cbapps:install',function() {
-	$this->info("SSM INSTALLATION");
+	$this->info("CB APPS INSTALLATION");
 
 	Schema::disableForeignKeyConstraints();
 

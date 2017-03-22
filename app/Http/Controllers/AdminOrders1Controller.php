@@ -54,6 +54,7 @@
 			$this->form[] = ['label'=>'Select Datatable','name'=>'select_datatable','type'=>'select','validation'=>'required|min:1|max:255','width'=>'col-sm-10','datatable'=>'products,name'];
 			$this->form[] = ['label'=>'Select2 Enum','name'=>'select2_enum','type'=>'select2','validation'=>'required|min:1|max:255','width'=>'col-sm-10','dataenum'=>'Android;Ios;Website'];
 			$this->form[] = ['label'=>'Select2 Datatable','name'=>'select2_datatable','type'=>'select2','validation'=>'required|min:1|max:255','width'=>'col-sm-10','datatable'=>'customers,name'];
+			$this->form[] = ['label'=>'Select2 n->m','name'=>'select2_n_m','type'=>'select2','validation'=>'required|min:1|max:255','width'=>'col-sm-10','datatable'=>'categories,name','relationship_table'=>'orders_category'];
 			$this->form[] = ['label'=>'Type Text','name'=>'type_text','type'=>'text','validation'=>'required|min:1|max:255','width'=>'col-sm-10'];
 			$this->form[] = ['label'=>'Type Textarea','name'=>'type_textarea','type'=>'textarea','validation'=>'required|string|min:5|max:5000','width'=>'col-sm-10'];
 			$this->form[] = ['label'=>'Type Time','name'=>'type_time','type'=>'time','validation'=>'required|date_format:H:i:s','width'=>'col-sm-10'];

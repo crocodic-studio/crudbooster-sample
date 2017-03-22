@@ -421,6 +421,7 @@ class ComposerStaticInit6dfcc0398cbdc4599eef8f38b0aa203c
         'CreateCustomers' => __DIR__ . '/../..' . '/database/migrations/2017_03_21_074931_create_customers.php',
         'CreateNullableCmsApicustom' => __DIR__ . '/../..' . '/database/migrations/2016_09_17_104728_create_nullable_cms_apicustom.php',
         'CreateOrders' => __DIR__ . '/../..' . '/database/migrations/2017_03_21_072623_create_orders.php',
+        'CreateOrdersCategory' => __DIR__ . '/../..' . '/database/migrations/2017_03_22_140157_create_orders_category.php',
         'CreateOrdersDetail' => __DIR__ . '/../..' . '/database/migrations/2017_03_21_072638_create_orders_detail.php',
         'CreatePosts' => __DIR__ . '/../..' . '/database/migrations/2017_03_21_083917_create_posts.php',
         'CreateProducts' => __DIR__ . '/../..' . '/database/migrations/2017_03_21_072611_create_products.php',

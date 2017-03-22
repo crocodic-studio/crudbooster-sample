@@ -39,6 +39,7 @@ return array(
     'CreateCustomers' => $baseDir . '/database/migrations/2017_03_21_074931_create_customers.php',
     'CreateNullableCmsApicustom' => $baseDir . '/database/migrations/2016_09_17_104728_create_nullable_cms_apicustom.php',
     'CreateOrders' => $baseDir . '/database/migrations/2017_03_21_072623_create_orders.php',
+    'CreateOrdersCategory' => $baseDir . '/database/migrations/2017_03_22_140157_create_orders_category.php',
     'CreateOrdersDetail' => $baseDir . '/database/migrations/2017_03_21_072638_create_orders_detail.php',
     'CreatePosts' => $baseDir . '/database/migrations/2017_03_21_083917_create_posts.php',
     'CreateProducts' => $baseDir . '/database/migrations/2017_03_21_072611_create_products.php',
